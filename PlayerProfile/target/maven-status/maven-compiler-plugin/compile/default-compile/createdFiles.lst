@@ -1,0 +1,12 @@
+com\havoc\playerprofile\dao\AttributeDAO.class
+com\havoc\playerprofile\dao\impl\PlayerDAOImpl$2.class
+com\havoc\playerprofile\dao\PlayerDAO.class
+com\havoc\playerprofile\controller\DefaultController.class
+com\havoc\playerprofile\dao\impl\PlayerDAOImpl.class
+com\havoc\playerprofile\entity\Player.class
+com\havoc\playerprofile\dao\impl\AttributeDAOImpl$1.class
+com\havoc\playerprofile\controller\PlayerController.class
+com\havoc\playerprofile\dao\impl\PlayerDAOImpl$1.class
+com\havoc\playerprofile\entity\Attribute.class
+com\havoc\playerprofile\dao\impl\AttributeDAOImpl.class
+com\havoc\playerprofile\controller\AttributeController.class

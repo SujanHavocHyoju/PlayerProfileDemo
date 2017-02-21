@@ -42,7 +42,7 @@
                     <td>${play.age}</td>
                     <td>${play.height}</td>
                     <td>${play.weight}</td>
-                    <td id="position">${play.position}</td>
+                    <td class="position" style="text-align: center"><b>${play.position}</b></td>
                     <td>${play.foot}</td>
                     <td>${play.nationality}</td>
                     <td>${play.club}</td>
@@ -57,5 +57,12 @@
     </div>
 
 
-
+    <script>
+        $(document).ready(function() {
+            $('.position:contains("CAM"),.position:contains("LM"),.position:contains("CM"),.position:contains("CDM"),.position:contains("RM")').css('background', 'GreenYellow');  
+             $('.position:contains("ST"),.position:contains("LW"),.position:contains("LF"),.position:contains("CF"),.position:contains("RF"),.position:contains("RW")').css('background', 'RoyalBlue');   
+             $('.position:contains("GK")').css('background', 'orange'); 
+            $('.position:contains("LWB"),.position:contains("LB"),.position:contains("CB"),.position:contains("RB"),.position:contains("RWB")').css('background', 'yellow'); 
+        });
+    </script>
     <%@include file="footer.jsp" %>
